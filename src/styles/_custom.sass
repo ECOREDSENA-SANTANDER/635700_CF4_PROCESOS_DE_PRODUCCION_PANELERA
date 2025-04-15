@@ -3,28 +3,132 @@
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     top: 20%
-    right: 10%
+    right: 70%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 21%
+    right: 18%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 60%
+    right: 73%
+
 
 @keyframes float1
   0%
     transform: translateY(20px)
+
   100%
     transform: translateY(0px)
-  
+color-banner-text
+  .fa-plus
+    color: #000 !important
+.me-1 
+  color: $color-etiqueta-texto !important
+.btt
+  .img-infografica__item
+    width: 3.5%
 
-.banner-principal .tarjeta
-  background-position: left 50% !important
-.banner-principal__row .banner-principal__img
-  width: 400px !important  
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important   
-.banner-interno__titulo__icono i
-  color: $color-primario
-figcaption
-  font-weight: normal
- 
+  .img-infografica__item__dot:before, .img-infografica__item__dot:after
+    background-color: #ededed !important
+  .img-infografica__item__numero
+    font-size: xx-large
+
+.fnd-1
+  background-color: #F6F6F6 !important
+
+.boton *, .boton--sm * 
+  color: $white
+
+.barrita
+  color: #FF6B00
+
+.color-lila
+  background-color: #E5D9F7 !important
+
+.color-tarjeta
+  background-color: #DADFD0 !important
+
+.color-tarjetas
+  background-color: #FBEDDF !important
+
+.color-tarjetas-slyders
+  background-color: #EFE8FA !important
+
+.fa-plus
+  color: #FFFFFF !important
+
+.slyder-a__bullets__item
+  background-color: #E2872C !important
+
+.acordion__activo
+  background-color: #FBEDDF !important
+
+.acordion__accion__btn--a
+  background-color: #5000C7 !important
+
+.lista-ol--cuadro__vineta 
+  background-color: $color-acento-botones !important
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero span 
+  color: #12263F !important
+
+.fas fa-info
+  background-color: $color-acento-botones !important
+
+.tarjeta-slide 
+    height: 450px
+    position: relative
+    overflow: hidden
+
+
+//Animaciones
+.image-cover
+  position: absolute
+  top: 0px
+  opacity: 0
+  transition: all 1000ms
+.image-cover:hover
+  display:block
+  opacity: 100%
+  transition: all 650ms
+.image-cover
+  position: absolute
+  top: 0px
+  opacity: 0
+  transition: all 1000ms
+.image-cover:hover
+  display:block
+  opacity: 100%
+  transition: all 650ms
+
+.faa
+  background-color: #E2872C !important
+
+.fab
+  background-color: #FBE1E1 !important
+
+.fac
+  background-color: #F6F6F6 !important
+
+.fad
+  background-color: #FAECDE !important
+
+.fae
+  background-color: #FBEDDF !important
+
+.slyder-a
+  background-color: #FBE1E1 !important
+  border-radius: 20px
+  padding: 1.5rem !important
+
+.traslape
+  .col-lg-4
+    z-index: 2
+  .col-lg-7.fae
+    margin: 0 0 0 -20%
+    padding: 1rem 1rem 1rem 20%
+    border-radius: 1rem 
+    z-index: 1 
