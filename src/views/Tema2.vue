@@ -140,7 +140,7 @@
               .cajon.color-acento-botones.p-4.mb-4.color-lila
                 p Hace 15 años, la industria panelera reciclaba bolsas de papel para el empaque; en el año 2006, el Ministerio de la Protección Social crea la resolución 779, “por la cual se establece el reglamento técnico sobre los requisitos sanitarios que se deben cumplir en la producción y comercialización de la panela para consumo humano y se dictan otras disposiciones” (Ministerio de la Protección Social, 2006). 
           p.mb-3 En el capítulo V (Envase, embalaje, rotulado, reenvase, almacenamiento, distribución, transporte y comercialización), el artículo 12 dice:
-          p.mb-3 <b>Esquemas II:</b> Cantidades generadas por una molienda en el trapiche La Unión 30 “A partir de la entrada en vigencia del reglamento técnico que se establece mediante la presente resolución, las panelas a granel se deben embalar en material sanitario de primer uso, teniendo en cuenta las siguientes condiciones:
+          p.mb-3 <b>Esquemas II:</b> cantidades generadas por una molienda en el trapiche La Unión 30 “A partir de la entrada en vigencia del reglamento técnico que se establece mediante la presente resolución, las panelas a granel se deben embalar en material sanitario de primer uso, teniendo en cuenta las siguientes condiciones:
           
   
         .col-md-6

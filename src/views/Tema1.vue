@@ -93,7 +93,7 @@
               ul.lista-ul.mb-3
                 li 
                   i.lista-ul__vineta
-                  | Fichas técnicas del producto final (tabla 6, de acuerdo al NTC 1311).
+                  | Fichas técnicas del producto final.
                 li 
                   i.lista-ul__vineta
                   | Fichas técnicas de insumos e ingredientes.

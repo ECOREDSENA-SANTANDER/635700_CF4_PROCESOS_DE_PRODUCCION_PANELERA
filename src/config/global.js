@@ -4,7 +4,7 @@ export default {
     Description:
       'La panela es un derivado de la caña de azúcar, considerado más saludable que otros azúcares refinados. En Colombia se busca que los trapiches se rijan conforme al decreto N° 3075 de 1997 donde se establecen las buenas prácticas de manufactura, y mediante la resolución 779 que establece los requisitos de higiene que se deben tener para la elaboración y comercialización de la panela.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal-1.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal-1.svg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
@@ -224,7 +224,7 @@ export default {
     {
       referencia:
         'Ariza Ariza, C., Hidalgo González, N. F. & Caballero Colorado, F. D. (2013).<i> Análisis de pre inversión para el mejoramiento y modernización de la planta de producción de panela de la finca San Luis Villeta Cundinamarca.</i> Universidad Militar Nueva Granada.',
-      link: 'http://repository.unimilitar.edu.co/handle/10654/7046 ',
+      link: '',
     },
     {
       referencia:
