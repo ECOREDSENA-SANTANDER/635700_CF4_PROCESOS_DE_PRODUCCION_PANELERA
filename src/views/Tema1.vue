@@ -49,7 +49,7 @@
             .col-md-7
               figure
                 
-                img(src='@/assets/curso/temas/T1/img-3.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/T1/img-3.png', alt='Se detalla la estructura de un procedimiento en la planta de producción de la panela.')
   
   
           .row(titulo="")
@@ -61,7 +61,7 @@
             .col-md-7
               figure
                 
-                img(src='@/assets/curso/temas/T1/img-4.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/T1/img-4.png', alt='Se detalla la estructura de un instructivo de trabajo en la planta de producción de la panela.')
   
   
           .row(titulo="")
@@ -74,17 +74,17 @@
                 .col-lg-4.mb-3
                   a.lnk(@click="modal1 = true")
                     figure
-                      img(src='@/assets/curso/temas/T1/tbl-1.svg')
+                      img(src='@/assets/curso/temas/T1/tbl-1.svg', alt='Se detalla el programa de saneamiento, que incluye zona o lugar, tratamiento, instructivo o registro, frecuencia, materiales y el responsable.')
   
                 .col-lg-4.mb-3
                   a.indicador__container(@click="modal2 = true")
                     figure
-                      img(src='@/assets/curso/temas/T1/tbl-2.svg')
+                      img(src='@/assets/curso/temas/T1/tbl-2.svg', alt='Se detalla el programa de desinfectante, que incluye zona o lugar, producto, pureza, concentración de uso, preparación y el responsable.')
   
                 .col-lg-4
                   a.indicador__container(@click="modal3 = true")
                     figure
-                      img(src='@/assets/curso/temas/T1/tbl-3.svg')
+                      img(src='@/assets/curso/temas/T1/tbl-3.svg', alt='Se detalla el programa de desinfectante, que incluye zona o lugar, producto, pureza, concentración de uso, preparación y el responsable.')
   
           .row(titulo="")
             .col-md-5.mb-4.mb-md-0
@@ -108,7 +108,7 @@
           
             .col-md-7
               figure
-                img(src='@/assets/curso/temas/T1/img-8.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/T1/img-8.png', alt='Se detalla la ficha técnica de producto en la planta de producción de la panela.')
   
           .row(titulo="")
             .col-md-8.mb-4.mb-md-0
@@ -131,7 +131,7 @@
           
             .col-md-3
               figure
-                img(src='@/assets/curso/temas/T1/img-9.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/T1/img-9.png', alt='')
   
           .row(titulo="")
             .col-md-5.mb-4.mb-md-0
@@ -141,7 +141,7 @@
           
             .col-md-7
               figure
-                img(src='@/assets/curso/temas/T1/img-10.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/T1/img-10.png', alt='Se detalla un ejemplo de la estructura de un listado maestro, que incluye documentos, código, área, fecha de elaboración y versión vigente.')
   
           .row(titulo="")
             .col-md-8.mb-4.mb-md-0
@@ -168,15 +168,15 @@
       ModalA(:abrir-modal.sync="modal1")
         .row.align-items-center
             figure
-              img(src='@/assets/curso/temas/T1/tbl-1.svg')
+              img(src='@/assets/curso/temas/T1/tbl-1.svg', alt='Se detalla el programa de saneamiento, que incluye zona o lugar, tratamiento, instructivo o registro, frecuencia, materiales y el responsable.')
       ModalA(:abrir-modal.sync="modal2")
         .row.align-items-center
             figure
-              img(src='@/assets/curso/temas/T1/tbl-2.svg')
+              img(src='@/assets/curso/temas/T1/tbl-2.svg', alt='Se detalla el programa de desinfectante, que incluye zona o lugar, producto, pureza, concentración de uso, preparación y el responsable.')
       ModalA(:abrir-modal.sync="modal3")
         .row.align-items-center
             figure
-              img(src='@/assets/curso/temas/T1/tbl-3.svg')            
+              img(src='@/assets/curso/temas/T1/tbl-3.svg', alt='Se detalla el programa de desinfectante, que incluye zona o lugar, producto, pureza, concentración de uso, preparación y el responsable.')            
   
       Separador
   
@@ -367,7 +367,7 @@
         
   
       figure.mb-5
-        img(src='@/assets/curso/temas/T1/img-24.svg', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/temas/T1/img-24.svg', alt='En el diagrama de flujo del proceso de producción panelera, se muestra la entrada, la molienda, prelimpieza, la cachaza, evaporación del agua, enfriamiento, la panela y salida.')
   
       ol.lista-ol--cuadro.mb-4
         li
@@ -397,7 +397,7 @@
             .col-md-9
               figure
   
-                img(src='@/assets/curso/temas/T1/img-26.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/T1/img-26.png', alt='Se detalla un en la molenda, aspectos e impactos que se presentan en el proceso de producción de la panela, tales como actividad, aspectos e impacto.')
   
   
           .row(titulo="")
@@ -406,7 +406,7 @@
           
             .col-md-9
               figure
-                img(src='@/assets/curso/temas/T1/img-27.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/T1/img-27.png', alt='Se detalla la actividad, aspecto e impacto de la pre-limpieza.')
   
   
           .row(titulo="")
@@ -415,7 +415,7 @@
           
             .col-md-9
               figure
-                img(src='@/assets/curso/temas/T1/img-28.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/T1/img-28.png', alt='Se detalla la actividad, aspecto e impacto en el proceso de clarificación.')
                 
           .row(titulo="")
             .col-md-3.mb-4.mb-md-0
@@ -423,7 +423,7 @@
           
             .col-md-9
               figure
-                img(src='@/assets/curso/temas/T1/img-29.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/T1/img-29.png', alt='Se detalla la actividad, aspecto e impacto en el proceso de evaporación.')
   
           .row(titulo="")
             .col-md-3.mb-4.mb-md-0
@@ -431,7 +431,7 @@
           
             .col-md-9
               figure
-                img(src='@/assets/curso/temas/T1/img-30.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/T1/img-30.png', alt='Se detalla la actividad, aspecto e impacto en el proceso de punteo o batido.')
   
           .row(titulo="")
             .col-md-3.mb-4.mb-md-0
@@ -439,7 +439,7 @@
           
             .col-md-9
               figure
-                img(src='@/assets/curso/temas/T1/img-31.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/T1/img-31.png', alt='Se detalla la actividad, aspecto e impacto en el proceso de moldeo y empaque.')
   
   
       ol.lista-ol--cuadro.mb-4
@@ -460,7 +460,7 @@
       .row(titulo="")
         .col-md-4
           figure
-            img(src='@/assets/curso/temas/T1/img-33.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/T1/img-33.png', alt='')
   
         .col-md-8.mb-4.mb-md-0
           AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta fac")
@@ -505,7 +505,7 @@
           i Secciones del Decreto 1076 de 2015 aplicables a la producción de panela
   
       figure.mb-5
-        img(src='@/assets/curso/temas/T1/img-34.svg', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/temas/T1/img-34.svg', alt='Se detalla en la tabla la norma, el tema y la aplicabilidad.')
   
       p.mb-5 La tabla, muestra las resoluciones ambientales más relevantes que complementan el decreto anterior, en lo que se refiere a la producción de panela:
   
@@ -515,7 +515,7 @@
           i Resoluciones ambientales aplicables a la producción de panela
   
       figure.mb-5
-        img(src='@/assets/curso/temas/T1/img-35.svg', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/temas/T1/img-35.svg', alt='Se detalla la norma, el tema y la aplicabilidad.')
   
       ol.lista-ol--cuadro.mb-4
         li

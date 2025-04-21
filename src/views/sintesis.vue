@@ -8,7 +8,7 @@
       .col-lg-10.mb-5
         figure
 
-          img(src="@/assets/curso/temas/sintesis.png", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.png", alt="En la elaboración de la panela son importantes los siguientes conceptos: entradas, proceso y salidas. 1. Entradas: corte de caña, transporte de caña, almacenamiento y pesaje de la caña. 2. Proceso: Limpieza, extracción del jugo (molienda) pre limpieza, clarificación, evaporación y concentración, moldeo y enfriamiento punteo y batido, empaque y almacenamiento. 3. Salidas: Uso de recursos renovables y no renovables como: vertimiento de aguas residuales, uso de energías no renovables, generación de residuos sólidos, emisión de material particulado, emisiones atmosféricas, contaminación térmica y generación de ruido.")
       .col-auto
         a.anexo.mb-4(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

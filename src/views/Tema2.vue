@@ -199,7 +199,7 @@
           i Residuos de la caña
   
       figure.mb-5
-        img(src='@/assets/curso/temas/T2/img-13.png', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/temas/T2/img-13.png', alt='En la figura se describe cada uno de los residuos de caña generados durante el proceso de producción panelera: El bagazo, bagacillo, cachaza, agua miel y ceniza.')
   
   
       .row.traslape.justify-content-center.align-items-center.mb-5
