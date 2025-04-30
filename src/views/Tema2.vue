@@ -7,7 +7,7 @@
           span 2
         h1 Proceso y generación de residuos
   
-      .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/temas/T2/img-1.png')})`}"
         )
@@ -19,10 +19,10 @@
         h2 2.1 Recolección de la caña panelera
       
       p.mb-3 La recolección de la caña es muy particular de acuerdo con la zona donde se produce. En Colombia, se han adoptado dos sistemas de poda: la poda uniforme y la poda por aclareo.
-      p.mb-5 <b>Veamos en qué consiste cada uno:</b>
+      p.mb-5.fw-bold Veamos en qué consiste cada uno:
   
       .row(titulo="")
-        .col-md-8.mb-4.mb-md-0
+        .col-sm-12.col-lg-8
           AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta fac")
             .row(titulo="Poda uniforme")
               .col-md-10.mb-4.mb-md-0
@@ -37,15 +37,13 @@
               .col-md-10.mb-4.mb-md-0
                 p.mb-1 Los residuos de la poda dentro del cultivo son palmitos que producen 7 toneladas por hectárea al año, estos residuos, típicamente quedan en el área de cultivo de la caña de azúcar panela luego de realizadas las operaciones de poda, se utilizan para cubiertas vegetales. En algunas zonas de Colombia, como Santander y Boyacá, los corazones y restos de palmeras son recolectados y utilizados como alimento para animales, (Ospina, 2019).
   
-        .col-md-4
-          figure
+        .col-sm-12.col-lg-4.d-none.d-lg-block
             img(src='@/assets/curso/temas/T2/img-2.png', alt='Texto que describa la imagen')
   
       ol.lista-ol--cuadro.mb-4
         li
           .lista-ol--cuadro__vineta.faa
-            span 
-          p <b>Procesos de transformación</b>
+          span.mb-0.fw-bold Procesos de transformación
         
       p.mb-3 Durante el proceso de producción de panela, la materia prima pasa por diferentes momentos que permiten la obtención del producto final, cada uno de estos procesos tiene unas características especiales.
       p.mb-5 De acuerdo con lo anterior, se presentan cada uno de los procesos de transformación:
@@ -130,45 +128,40 @@
       ol.lista-ol--cuadro.mb-4
         li
           .lista-ol--cuadro__vineta.faa
-            span 
-          p <b>Procesos de empaque y bodega</b>
+          span.mb-0.fw-bold Procesos de empaque y bodega
   
       .row.mb-5
-        .col-md-6.mb-4.mb-md-0
-          .row.mb-2
-            .col-12
-              .cajon.color-acento-botones.p-4.mb-4.color-lila
-                p Hace 15 años, la industria panelera reciclaba bolsas de papel para el empaque; en el año 2006, el Ministerio de la Protección Social crea la resolución 779, “por la cual se establece el reglamento técnico sobre los requisitos sanitarios que se deben cumplir en la producción y comercialización de la panela para consumo humano y se dictan otras disposiciones” (Ministerio de la Protección Social, 2006). 
-          p.mb-3 En el capítulo V (Envase, embalaje, rotulado, reenvase, almacenamiento, distribución, transporte y comercialización), el artículo 12 dice:
-          p.mb-3 <b>Esquemas II:</b> cantidades generadas por una molienda en el trapiche La Unión 30 “A partir de la entrada en vigencia del reglamento técnico que se establece mediante la presente resolución, las panelas a granel se deben embalar en material sanitario de primer uso, teniendo en cuenta las siguientes condiciones:
+        .col-sm-12.col-lg-7
+          .cajon.color-acento-botones.p-4.mb-4.color-lila
+            p.mb-0 Hace 15 años, la industria panelera reciclaba bolsas de papel para el empaque; en el año 2006, el Ministerio de la Protección Social crea la resolución 779, “por la cual se establece el reglamento técnico sobre los requisitos sanitarios que se deben cumplir en la producción y comercialización de la panela para consumo humano y se dictan otras disposiciones” (Ministerio de la Protección Social, 2006). 
+          p.mb-0 En el capítulo V (Envase, embalaje, rotulado, reenvase, almacenamiento, distribución, transporte y comercialización), el artículo 12 dice:
           
   
-        .col-md-6
-          figure
+        .col-sm-12.col-lg-5.d-none.d-lg-block
             img(src='@/assets/curso/temas/T2/img-10.png', alt='Texto que describa la imagen')
   
+      p.mb-4 #[b Esquemas II:] cantidades generadas por una molienda en el trapiche La Unión 30 “A partir de la entrada en vigencia del reglamento técnico que se establece mediante la presente resolución, las panelas a granel se deben embalar en material sanitario de primer uso, teniendo en cuenta las siguientes condiciones:
       .row.justify-content-center
         ol.lista-ol--cuadro
-          li 
+          li.d-flex
             .lista-ol--cuadro__vineta
               span a
-            | Se prohíbe el embalaje de panelas en materiales como costales o material no sanitario.
-          li 
+            p.mb-0 Se prohíbe el embalaje de panelas en materiales como costales o material no sanitario.
+          li.d-flex
             .lista-ol--cuadro__vineta
               span b
-            | El embalaje se debe conservar en buenas condiciones durante toda la cadena de comercialización.
-          li 
+            p.mb-0 El embalaje se debe conservar en buenas condiciones durante toda la cadena de comercialización.
+          li.d-flex
             .lista-ol--cuadro__vineta
               span c
-            | Solo se permite el reenvase de panelas en establecimientos autorizados por la Entidad Territorial de Salud procedentes de trapiches que cumplan con los requisitos sanitarios establecidos en el reglamento técnico que se establece a través de la presente resolución” (Ministerio de la Protección Social, 2006).
+            p.mb-0 Solo se permite el reenvase de panelas en establecimientos autorizados por la Entidad Territorial de Salud procedentes de trapiches que cumplan con los requisitos sanitarios establecidos en el reglamento técnico que se establece a través de la presente resolución” (Ministerio de la Protección Social, 2006).
   
       ol.lista-ol--cuadro.mb-4
         li
           .lista-ol--cuadro__vineta.faa
-            span 
-          p <b>Cenizas y emisiones</b> 
+          span.mb-0.fw-bold Cenizas y emisiones
   
-      .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g.color-secundario.p-3.p-md-5.mb-0
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/temas/T2/img-11.png')})`}"
         )
@@ -183,32 +176,30 @@
       #t_2_2.titulo-segundo.color-acento-contenido
         h2 2.2 Descripción de los residuos 
   
-      .row.mb-5
-        .col-2
+      .row.mb-5.align-items-center
+        .col-sm-12.col-lg-2.d-none.d-lg-block
           figure
             img(src='@/assets/curso/temas/T2/img-12.png', alt='Texto que describa la imagen')
           
-        .col-md-9
+        .col-sm-12.col-lg-10
           p.mb-3 El principal residuo sólido producido en la industria de la caña de azúcar, después de triturar se llama bagazo;su uso principal es como combustible para estufas, pero tiene mucha humedad y debe secarse antes de su uso. Para ello, son llevados a un lugar llamado Bagasela. Allí se crea un nicho propicio para la colonización de moscas, abejas, avispas y roedores que pueden contaminar el producto final.
   
       p.mb-5 Se presenta la descripción de cada uno de los residuos de la caña:
   
-      .titulo-sexto.color-acento-contenido
-        h5 Figura 2
-        p.mb-0
-          i Residuos de la caña
+      .titulo-sexto.color-acento-contenido.mb-5
+        h5 Figura 2. 
+        span Residuos de la caña
   
       figure.mb-5
         img(src='@/assets/curso/temas/T2/img-13.png', alt='En la figura se describe cada uno de los residuos de caña generados durante el proceso de producción panelera: El bagazo, bagacillo, cachaza, agua miel y ceniza.')
   
   
       .row.traslape.justify-content-center.align-items-center.mb-5
-        .col-lg-4
-          figure
+        .col-sm-12.col-lg-4.d-none.d-lg-block.traslape-img
             img(src='@/assets/curso/temas/T2/img-14.png', alt='Texto que describa la imagen')
   
-        .col-lg-7.fae
-          p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
+        .col-sm-12.col-lg-7.traslape-text-card
+          p.mb-0 Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
         
   
   

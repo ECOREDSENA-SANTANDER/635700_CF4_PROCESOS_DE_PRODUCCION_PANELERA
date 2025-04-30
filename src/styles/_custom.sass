@@ -25,6 +25,11 @@
 color-banner-text
   .fa-plus
     color: #000 !important
+.barra-avance__boton--regresar span 
+    color: #fff !important
+    &:hover
+      color: #fff !important
+
 .me-1 
   color: $color-etiqueta-texto !important
 .btt
@@ -41,7 +46,8 @@ color-banner-text
 
 .boton *, .boton--sm * 
   color: $white
-
+.me-2.fas.fa-angle-left
+  color: white !important
 .barrita
   color: #FF6B00
 
@@ -117,7 +123,7 @@ color-banner-text
   background-color: #FAECDE !important
 
 .fae
-  background-color: #FBEDDF !important
+  
 
 .slyder-a
   background-color: #FBE1E1 !important
@@ -125,15 +131,14 @@ color-banner-text
   padding: 1.5rem !important
 
 .traslape
-  .col-lg-4
+  &-img
     z-index: 2
-  .col-lg-7.fae
-    margin: 0 0 0 -20%
+  &-text-card
+    margin: 8% 0 0 -20%
     padding: 1rem 1rem 1rem 20%
     border-radius: 1rem 
     z-index: 1 
-
-// ajustes 2025
+    background-color: #FBEDDF !important
 
 .banner-interno__titulo h2
   color: black !important   
@@ -143,3 +148,48 @@ color-banner-text
 
 .lista-ul__vineta 
   display: none
+
+.slyder-a__bullets__item
+  border-color: #E2872C !important
+.linea-tiempo-c__content .horizontal-scroll,
+.slyder-a .horizontal-scroll
+    align-items: start !important
+.lista-ul--color.color-secundario li > i:first-of-type
+  color: $color-secundario !important
+/**************************************************************/
+/*Media Queries*/  
+/**************************************************************/
+
+//// DESKTOP SMALL 1400--------------------------------------
+@media screen and (max-width: $bp-min-xxl)
+  .mb-cus
+    margin-bottom: 2em  !important  
+
+
+//// TABLET 992--------------------------------------
+@media screen and (max-width: $bp-max-md)
+  .img-cond-cus  
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 30px;
+  .traslape-text-card
+    margin: 0 !important
+    padding: 1rem !important
+  .bloque-texto-g
+    padding-top: 5% !important;
+    
+  
+  
+//// TABLET MINI 768--------------------------------------
+/* @ media screen and (max-width: $bp-min-md)*/
+  
+
+//// MOBILE 576--------------------------------------
+@media screen and (max-width: $bp-min-sm)
+  
+  .slyder-a__bullets__item
+    width: 8px !important
+    height: 8px !important
+    margin: 0 3px !important
+    
